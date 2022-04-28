@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(19, 19, 39);
+    color: white;
+}
+button {
+  font-family: "Inter", sans-serif;
+}
+
+.full-footer{
+    background-color: #243c4f;
+    
+  }
+  .top-footer p{
+    color: white;
+  }
+  .top-footer a{
+    color: white;
+    font-weight: 600;
+  }
+  .top-footer h3{
+    color: white;
+  }
+  .bottom-footer{
+    background-color: #031b2e;
+  }
+  .bottom-footer p{
+    color: white;
+  }
+
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: black;
+    border-right: 1px solid #eee;
+    width: 180px;
+    }
+    @media (min-width: 768px) {
+        .main {
+        padding-right: 40px;
+        padding-left: 220px; /* 180 + 40 */
+        }
+        }
